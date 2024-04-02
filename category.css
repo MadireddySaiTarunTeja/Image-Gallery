@@ -1,0 +1,306 @@
+body{
+    background-image: url(./bg_img.jpg);
+}
+
+
+/* NavBar */
+.Navbar{
+    margin-top: -6.5%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.Navbar a{
+    padding-left: 10%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.Navbar a:hover{
+    color: grey;
+    text-decoration-color: black;
+    text-decoration-line: overline;
+}
+
+/* Logo */
+
+.imglogo{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+/* Whole Container */
+
+.container{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+
+/* Category.css stylesheet */
+
+/* Each Items category */
+
+.item1{
+    background-image: url(./category/road-1072821_640.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item1:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item1 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 100%;
+}
+
+.item1 h2:hover{
+    color: black;
+}
+
+
+/* item2 */
+.item2{
+    background-image: url(./category/animals.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item2:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item2 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 100%;
+}
+
+.item2 h2:hover{
+    color: black;
+}
+
+/* item3 */
+.item3{
+    background-image: url(./category/cars.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item3:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item3 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 100%;
+}
+
+
+.item3 h2:hover{
+    color: black;
+}
+
+/* item4 */
+.item4{
+    background-image: url(./category/Anime.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item4:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item4 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 100%;
+}
+
+
+.item4 h2:hover{
+    color: black;
+}
+
+
+
+/* item5 */
+.item5{
+    background-image: url(./category/Movie.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item5:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item5 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 100%;
+}
+
+.item5 h2:hover{
+    color: black;
+}
+
+
+/* item6 */
+.item6{
+    background-image: url(./category/sports.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item6:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item6 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 100%;
+}
+
+.item6 h2:hover{
+    color: black;
+}
+
+/* item7 */
+.item7{
+    background-image: url(./category/technology.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item7:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item7 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 100%;
+}
+
+.item7 h2:hover{
+    color: black;
+}
+
+
+/* item8 */
+.item8{
+    background-image: url(./category/space.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item8:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item8 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 100%;
+}
+
+.item8 h2:hover{
+    color: black;
+}
+
+
+/* item9 */
+.item9{
+    background-image: url(./category/super\ hero.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px black; */
+    margin-top: 10px;
+    height: 310px;
+}
+
+.item9:hover{
+    box-shadow: 5px 5px black;
+}
+
+.item9 h2{
+    width: 30%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 100%;
+}
+
+.item9 h2:hover{
+    color: black;   
+}

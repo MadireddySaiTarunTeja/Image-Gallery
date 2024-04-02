@@ -1,0 +1,107 @@
+body{
+  background-image: url(./bg_img.jpg);
+}
+
+/* NavBar */
+.Navbar{
+    margin-top: -6.5%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.Navbar a{
+    padding-left: 10%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.Navbar a:hover{
+    color: grey;
+    text-decoration-color: black;
+    text-decoration-line: overline;
+}
+
+/* Logo */
+
+.imglogo{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+
+.head{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.content{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.data{
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 5%;
+}
+
+.head1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkblue;
+    margin-top: 5%;
+}
+
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: none;
+    padding: 30px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-group textarea {
+    height: 100px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+  
